@@ -1,0 +1,31 @@
+img{
+    width: 20%;
+    float: left;
+    margin:0;
+    transition: all 1s;
+}
+.saturar{
+    filter:saturate(3);
+}
+.escalagris{
+    filter:grayscale(100%);
+}
+.contraste{
+    filter:contrast(160%);
+}
+
+.blur{
+    filter: blur(3px);
+}
+
+.sepia{
+    filter: sepia(100%);
+}
+
+.invertir{
+    filter: invert(100%);
+}
+
+img:hover{
+    filter: none;
+}
